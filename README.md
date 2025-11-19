@@ -42,6 +42,7 @@ https://movie-app-omega-coral.vercel.app/
 3. ## Install dependencies
 ```bash
 - npm install
+```
 
 4. ## Environment Setup
 ```bash
@@ -50,5 +51,14 @@ Create a .env file in the root directory:
 - VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
 - VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
 - VITE_APPWRITE_TABLE_ID=metrics
+```
 
 ## 🏗️ Project Structure
+```
+src/
+├── components/
+│ ├── MovieCard.jsx # Individual movie card component
+│ ├── Search.jsx # Search input component
+│ └── Spinner.jsx # Loading spinner
+├── App.jsx # Main application component
+└── main.jsx # Application entry point
