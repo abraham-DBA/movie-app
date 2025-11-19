@@ -18,7 +18,7 @@ A modern, responsive web application for discovering and searching movies built 
 
 ## 🚀 Live Demo
 
-[Add your live demo link here]
+https://movie-app-omega-coral.vercel.app/
 
 ## 🛠️ Tech Stack
 
@@ -39,12 +39,16 @@ A modern, responsive web application for discovering and searching movies built 
    git clone https://github.com/yourusername/moviefinder.git
    cd moviefinder
 
-## Install dependencies
+3. ## Install dependencies
+```bash
 - npm install
 
-## Environment Setup
+4. ## Environment Setup
+```bash
 Create a .env file in the root directory:
 - VITE_TMDB_API_KEY=your_tmdb_api_key_here
 - VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
 - VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
 - VITE_APPWRITE_TABLE_ID=metrics
+
+## 🏗️ Project Structure
