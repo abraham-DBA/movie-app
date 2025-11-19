@@ -62,3 +62,21 @@ src/
 │ └── Spinner.jsx # Loading spinner
 ├── App.jsx # Main application component
 └── main.jsx # Application entry point
+```
+## 🔧 Configuration
+**Appwrite Setup**
+1. Create a new project in Appwrite Cloud
+2. Set up a database named movies
+3. Create a table named metrics with the following columns:
+  - searchTerm (string)
+  - count (integer)
+  - poster_url (url)
+  - movie_id (integer)
+
+poster_url (string)
+
+## TMDB API
+- Register at The Movie Database
+- Generate an API key from your account settings
+- Add the key to your .env file
+
