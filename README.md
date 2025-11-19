@@ -1,17 +1,50 @@
-# React + Vite
+# 🎬 MovieFinder - Discover Movies You'll Love
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for discovering and searching movies built with React, TMDB API, and Appwrite. Find popular movies or search for specific titles with an intuitive interface.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Vite](https://img.shields.io/badge/Vite-Build%20Tool-orange)
+![TMDB](https://img.shields.io/badge/TMDB-API-red)
+![Appwrite](https://img.shields.io/badge/Appwrite-Backend-f02e65)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **🔍 Smart Search** - Real-time movie search with debounced input
+- **🎯 Popular Movies** - Discover trending and popular movies
+- **📊 Search Analytics** - Track search metrics using Appwrite backend
+- **🎨 Modern UI** - Clean, responsive design with smooth animations
+- **⚡ Fast Performance** - Built with Vite for optimal loading speeds
+- **📱 Mobile Friendly** - Fully responsive across all devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+[Add your live demo link here]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# movie-app" 
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React 18
+- Vite
+- Tailwind CSS
+- React Hot Toast
+
+**Backend & APIs:**
+- TMDB API (The Movie Database)
+- Appwrite (Backend-as-a-Service)
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/moviefinder.git
+   cd moviefinder
+
+## Install dependencies
+- npm install
+
+## Environment Setup
+Create a .env file in the root directory:
+- VITE_TMDB_API_KEY=your_tmdb_api_key_here
+- VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+- VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
+- VITE_APPWRITE_TABLE_ID=metrics
